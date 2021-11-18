@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+.subfooter {
+    padding: 5px 0;
+}
+
+.image-box {
+    border: 1px solid #efefef;
+}
+
+.pimage {
+    border: 1px solid #efefef;
+}
+
+#researches {
+    margin: auto 50px;
+    margin-bottom: 90px;
+}
+
+#researches a{
+    text-decoration: none;
+}
+
+#researches a:hover {
+    text-decoration: underline;
+}
+
+#links {
+    margin: 50px auto;
+}
+
+#links .content{
+    margin: 80px 50px;
+}
+
+#links a{
+    margin: 10px;
+    display: inline-block;
+    background: #55acee;
+    padding: 3px 6px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .header-left {
+        width: 80%;
+        float: left;
+        display: inline-block;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 20px auto;
+    }
+
+    .navbar-default .navbar-collapse {
+        background-color: #314052;
+    }
+
+    #researches {
+        margin:  0 10px;
+    }
+
+    #links .content {
+        margin:  0;
+    }
+
+    .organization{
+        display: inline-block;
+    }
+}
+
