@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://shublcc.netlify.app/*"
+  to = "https://www.dlcloud.info/:splat"
+  force = true
+  status = 301
