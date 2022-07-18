@@ -100,14 +100,14 @@
 								<div id="equips">
 									<div id="mainCarousel">
 										<div class="carousel__viewport">
-											<div v-for="item in items" class="carousel__slide" :data-src="'images/equip/' + item.img" data-fancybox="gallery1" :data-caption="item.description" >
-												<img :data-lazy-src="'images/equip/' + item.img" />
+											<div v-for="item in items" class="carousel__slide" :data-src="'/images/equip/' + item.img" data-fancybox="gallery1" :data-caption="item.description" >
+												<img :data-lazy-src="'/images/equip/' + item.img" />
 											</div>
 										</div>
 									</div>
 									<div id="thumbCarousel" class="carousel max-w-xl mx-auto">
 										<div v-for="item in items" class="carousel__slide">
-											<img class="panzoom__content" :src="'images/equip/' + item.img" />
+											<img class="panzoom__content" :src="'/images/equip/' + item.img" />
 										</div>
 									</div>
 								</div>
