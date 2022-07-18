@@ -1,0 +1,12 @@
+image: python:alpine
+
+pages:
+  script:
+    - mkdir .pub
+    - mv ./* .pub
+    - mv .pub public
+  artifacts:
+    paths:
+    - public/
+  only:
+  - master
