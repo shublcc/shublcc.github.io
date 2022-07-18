@@ -30,12 +30,73 @@ function changeModel() {
     }
 }
 
+var equips = {
+    data() {
+        return {
+            items: []
+        }
+    },
+    created: function() {
+        this.loadEquips();
+    },
+    methods: {
+        loadEquips: function() {
+            var vm = this;
+            axios.get('/data.json')
+            .then(function (response) {
+                vm.items = response.data.equips;
+                var num = 0;
+                for(var item of vm.items) {
+                    num++;
+                    item.num = num;
+                }
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+        }
+    }
+}
+
+Vue.createApp(equips).mount('#equips')
+
+var honors = {
+    data() {
+        return {
+            items: []
+        }
+    },
+    created: function() {
+        this.loadHonors();
+    },
+    methods: {
+        loadHonors: function() {
+            var vm = this;
+            axios.get('/data.json')
+            .then(function (response) {
+                vm.items = response.data.honors;
+                var num = 0;
+                for(var item of vm.items) {
+                    num++;
+                    item.num = num;
+                }
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+        }
+    }
+}
+
+Vue.createApp(honors).mount('#honors')
+
 var types = ['工程师', '老师', '在读研究生', '毕业研究生', '在读博士生', '毕业博士生', '在读本科生', '毕业本科生'];
 
-var members = new Vue({
-    el: '#members',
-    data: {
-        items: []
+var members = {
+    data() {
+        return {
+            items: []
+        }
     },
     created: function() {
         this.loadMembers();
@@ -60,12 +121,15 @@ var members = new Vue({
             });
         }
     }
-})
+}
 
-var links = new Vue({
-    el: '#links',
-    data: {
-        items: []
+Vue.createApp(members).mount('#members')
+
+var links = {
+    data() {
+        return {
+            items: []
+        }
     },
     created: function() {
         this.loadLinks();
@@ -82,12 +146,15 @@ var links = new Vue({
             });
         }
     }
-})
+}
 
-var researches = new Vue({
-    el: '#researches',
-    data: {
-        items: []
+Vue.createApp(links).mount('#links')
+
+var researches = {
+    data() {
+        return {
+            items: []
+        }
     },
     created: function() {
         this.loadResearches();
@@ -109,12 +176,54 @@ var researches = new Vue({
             });
         }
     }
-})
+}
+
+Vue.createApp(researches).mount('#researches')
 
 $(document).ready(function(){
     $('#copy-year').html(showYears());
+
+    // Initialise Carousel
+    const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
+        Dots: false,
+    });
+
+    // Thumbnails
+    const thumbCarousel = new Carousel(document.querySelector("#thumbCarousel"), {
+        Sync: {
+            target: mainCarousel,
+            friction: 0,
+        },
+        Dots: false,
+        Navigation: false,
+        center: true,
+        slidesPerPage: 1,
+        infinite: false,
+    });
+
+    // Customize Fancybox
+    // Fancybox.bind('[data-fancybox="gallery1"]', {
+    //     Carousel: {
+    //         on: {
+    //         change: (that) => {
+    //             mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
+    //             friction: 0,
+    //             });
+    //         },
+    //         },
+    //     },
+    // });
+
+    // Fancybox.bind('[data-fancybox="gallery2"]', {
+    //     Thumbs: {
+    //         Carousel: {
+    //         fill: false,
+    //         center: true,
+    //         },
+    //     },
+    // });
 });
 
-window.onload = function() {
+$(window).on('load',function(){
     changeModel();
-}
+});

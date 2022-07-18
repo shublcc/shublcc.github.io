@@ -10,13 +10,14 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.jpg');
+		$(".banner-image").backstretch('images/banner.webp');
 		
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {
 			if (($(".header.fixed").length > 0)) { 
-				if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
+				// if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
+				if($(this).scrollTop() > 0) {
 					$("body").addClass("fixed-header-on");
 				} else {
 					$("body").removeClass("fixed-header-on");
@@ -24,42 +25,16 @@
 			};
 		});
 
-		$(window).load(function() {
+		$(window).on('load',function() {
 			if (($(".header.fixed").length > 0)) { 
-				if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
+				// if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
+				if($(this).scrollTop() > 0) {
 					$("body").addClass("fixed-header-on");
 				} else {
 					$("body").removeClass("fixed-header-on");
 				}
 			};
 		});
-
-		//Scroll Spy
-		//-----------------------------------------------
-		if($(".scrollspy").length>0) {
-			$("body").addClass("scroll-spy");
-			$('body').scrollspy({ 
-				target: '.scrollspy',
-				offset: 152
-			});
-		}
-
-		//Smooth Scroll
-		//-----------------------------------------------
-		if ($(".smooth-scroll").length>0) {
-			$('.smooth-scroll a[href*=#]:not([href=#]), a[href*=#]:not([href=#]).smooth-scroll').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					if (target.length) {
-						$('html,body').animate({
-							scrollTop: target.offset().top-151
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		}
 
 		// Animations
 		//-----------------------------------------------
@@ -82,11 +57,11 @@
 		// Isotope filters
 		//-----------------------------------------------
 		if ($('.isotope-container').length>0) {
-			$(window).load(function() {
+			$(window).on('load',function(){
 				$('.isotope-container').fadeIn();
 				var $container = $('.isotope-container').isotope({
 					itemSelector: '.isotope-item',
-					layoutMode: 'masonry',
+					layoutMode: 'fitRows',
 					transitionDuration: '0.6s',
 					filter: "*"
 				});

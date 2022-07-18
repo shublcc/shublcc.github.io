@@ -7,85 +7,78 @@
 		<meta name="keywords" content="上海大学,类脑计算,类脑计算中心,实验室,机器学习,材料数据">
 		<meta name="author" content="BLCC Lab">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-		<link href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<!-- <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet"> -->
-		<link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-		<link href="/css/style.css" rel="stylesheet">
-		<link href="/css/blcc.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css' />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/blcc.css" rel="stylesheet" />
 	</head>
 
-	<body class="no-trans">
+	<body class="no-trans" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true">
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-		<header class="header fixed clearfix navbar navbar-fixed-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="header-left clearfix">
-							<!-- logo -->
-							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="/images/logo0.png " style="width:79px;height:60px;" alt="BLCC"></a>
+
+		<nav id="navbar" class="header fixed clearfix navbar navbar-expand-lg fixed-top">
+			<div class="container flex-group">
+				<div class="navbar">
+					<div class="container">
+					  	<a class="navbar-brand" href="#">
+							<img src="images/logo.webp" alt="" width="79" height="60" class="d-inline-block align-text-top">
+						</a>
+						<div class="site-name-and-slogan smooth-scroll">
+							<div class="site-name">
+								<a href="#banner">BLCC</a>
 							</div>
-							<!-- name-and-slogan -->
-							<div class="site-name-and-slogan smooth-scroll">
-								<div class="site-name"><a href="#banner">BLCC</a></div>
-								<div class="site-slogan">类脑计算实验室</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-9" style="padding:1px" >
-						<div class="header-right clearfix">
-							<!-- main-navigation start -->
-							<!-- ================ -->
-							<div class="main-navigation animated">
-								<!-- navbar start -->
-								<!-- ================ -->
-								<nav class="navbar navbar-default" role="navigation">
-									<div class="container-fluid">
-										<!-- Toggle get grouped for better mobile display -->
-										<div class="navbar-header">
-											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-											</button>
-										</div>
-										<!-- Collect the nav links, forms, and other content for toggling -->
-										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-											<ul class="nav navbar-nav navbar-right" >
-												<li class="active" ><a href="#banner">主页</a></li>
-												<li><a href="#directions">研究方向</a></li>
-												<li><a href="#members">研究成员</a></li>
-												<li><a href="#researches">研究成果</a></li>
-												<li><a href="#contact">联系我们</a></li>
-												<li><a href="#links">友情链接</a></li>
-												<li><a href="/pic.html">实验平台</a></li>
-												<li><a href="/en_index.html">English</a></li>
-											</ul>
-										</div>
-									</div>
-								</nav>
-							</div>
+							<div class="site-slogan">类脑计算实验室</div>
 						</div>
 					</div>
 				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+					  </svg>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link active" aria-current="page" href="#banner">主页</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="#directions">研究方向</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="#honors">荣誉墙</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="#members">研究成员</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="#researches">研究成果</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="#contact">联系我们</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="#links">友情链接</a>
+						</li>
+						<li class="nav-item col-6 col-md-auto">
+							<a class="nav-link" href="en_index.html">English</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</header>
-		<!-- header end -->
-
-		<!-- banner start -->
-		<!-- ================ -->
+		</nav>
+	
 		<div id="banner" class="banner">
 			<div class="banner-image"></div>
 			<div class="banner-caption">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+						<div class="col-md-8 offset-md-2 object-non-visible" data-animation-effect="fadeIn">
 							<h3 class="text-center">上海大学计算机工程与科学学院类脑计算实验室</h3>
 							<h1 class="text-center"><a href="#">类脑计算</a></h1>
 							<p class="lead text-center">精诚所至金石为开</p>
@@ -94,26 +87,35 @@
 				</div>
 			</div>
 		</div>
-		<!-- banner end -->
 
-		<!-- ion start -->
-		<!-- ================ -->
-		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+		<div id="directions" class="section" data-animation-effect="fadeIn">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 id="directions" class="title text-center"> <span>研究方向</span></h1>
-						<p class="lead text-center">BLCC实验室主要从事类脑计算、机器学习（如材料数据分析）、云平台等方面的研究</p>
+						<h1 class="title text-center"> <span>研究方向</span></h1>
+						<p class="lead text-center">BLCC 实验室主要从事类脑计算、机器学习（如材料数据分析）、云平台等方面的研究</p>
 						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6">
-								<img src="/images/eeg.jpg" alt="">
-								<div class="space"></div>
+								<div id="equips">
+									<div id="mainCarousel">
+										<div class="carousel__viewport">
+											<div v-for="item in items" class="carousel__slide" :data-src="'images/equip/' + item.img" data-fancybox="gallery1" :data-caption="item.description" >
+												<img :data-lazy-src="'images/equip/' + item.img" />
+											</div>
+										</div>
+									</div>
+									<div id="thumbCarousel" class="carousel max-w-xl mx-auto">
+										<div v-for="item in items" class="carousel__slide">
+											<img class="panzoom__content" :src="'images/equip/' + item.img" />
+										</div>
+									</div>
+								</div>
 							</div>
 							<div class="col-md-6">
 								<h2>类脑计算</h2>
-								<p>本类脑实验室正在初步建设阶段，目前已引进如左图的电极帽脑电设备、功能性近红外脑成像系统以及眼镜式眼动仪等设备。</p>
-								<p>心智是人类全部精神活动, 包括情感、意志、感觉、知觉、表象、学习、记忆、思维、直觉等, 人类一直在对自身进行探究，尤其是搞清楚大脑的工作机理，探索出大脑的秘密，这一直是人类的梦想。</p>
+								<p>&emsp;&emsp;本类脑实验室正在初步建设阶段，目前已引进如左图的电极帽脑电设备、功能性近红外脑成像系统以及眼镜式眼动仪等设备。</p>
+								<p>&emsp;&emsp;心智是人类全部精神活动, 包括情感、意志、感觉、知觉、表象、学习、记忆、思维、直觉等, 人类一直在对自身进行探究，尤其是搞清楚大脑的工作机理，探索出大脑的秘密，这一直是人类的梦想。</p>
 								<ul class="list-unstyled">
 									<li><i class="fa fa-caret-right pr-10 text-colored"></i> 使用脑电设备探索大脑对外界环境的感官感知，即探究人类对外界环境的感知，如人的注意力、学习、记忆以及决策制定等；</li>
 									<li><i class="fa fa-caret-right pr-10 text-colored"></i> 同时将脑电设备和眼镜式眼动仪设备结合起来实验，多方向探索人的生理性反应，如人的疲劳检测等；</li>
@@ -126,71 +128,64 @@
 						<div class="row">
 							<div class="col-md-6">
 								<h2>平台建设</h2>
-								<p><i class="fa fa-caret-right pr-10 text-colored"></i>对象存储（DS3）：基于 Minio 和 S3 协议构建的对象存储服务，是BLCC实验室为平台提供的一种能够存储海量数据的可靠存储服务，用户可以将数据存储在其中，并在平台提供的任一服务中进行调用，具有极强的平台适用性、高扩展性、低成本等特点。</p>
-								<p><i class="fa fa-caret-right pr-10 text-colored"></i>云虚拟机（DC2）：基于 KVM 和 Cloud-init 构建的虚拟化方案，是BLCC实验室为平台提供的一种安全可靠的弹性计算服务，只需几秒钟，用户就可以拥有几台虚拟机，方便实验室内部学生学习、开发使用，极大地降低了软硬件采购成本。</p>
-								<p><i class="fa fa-caret-right pr-10 text-colored"></i>私有云盘（DNC）：基于 Nextcloud 搭建的内部云盘服务，适用于团队内部资料文件存储、共享，可以在线查看、编辑、协作等操作。</p>
-								<p><i class="fa fa-caret-right pr-10 text-colored"></i>GPU计算（DGC）：基于 Docker 和 GPU 应用的计算服务，是BLCC实验室为平台提供的具有实时高速的并行计算和浮点计算能力的计算服务，适应用于深度学习、科学计算等应用场景，有效解放团队内部的计算压力，提升科学研究过程中的计算处理效率与竞争力。</p>
-								<p><i class="fa fa-caret-right pr-10 text-colored"></i>代码托管（DGit）：基于 Gitlab 搭建的代码托管平台，是BLCC实验室为开发者提供基于 Git 的在线代码托管工具，包含代码提交/存储/下载/复刻/分支/历史/比对/合并等功能。可一站式完成对代码及代码质量管理，项目及项目人员管理，大大提升研发效率。</p>
-								<p><i class="fa fa-caret-right pr-10 text-colored"></i>在线编程（DC9）：基于 Cloud9 搭建的在线编程平台，是BLCC实验室提供的专业集成在线编程环境，与 DGit 结合可用于团队在线协作编程，可作为测试环境直接运行，也可一键部署到云虚拟机中运行。</p>
+								<p><i class="fa fa-caret-right pr-10 text-colored"></i><b>对象存储（DS3）</b>：基于 Minio 和 S3 协议构建的对象存储服务，是 BLCC 实验室为平台提供的一种能够存储海量数据的可靠存储服务，用户可以将数据存储在其中，并在平台提供的任一服务中进行调用，具有极强的平台适用性、高扩展性、低成本等特点。</p>
+								<p><i class="fa fa-caret-right pr-10 text-colored"></i><b>云虚拟机（DC2）</b>：基于 KVM 和 Cloud-init 构建的虚拟化方案，是 BLCC 实验室为平台提供的一种安全可靠的弹性计算服务，只需几秒钟，用户就可以拥有几台虚拟机，方便实验室内部学生学习、开发使用，极大地降低了软硬件采购成本。</p>
+								<p><i class="fa fa-caret-right pr-10 text-colored"></i><b>私有云盘（DNC）</b>：基于 Nextcloud 搭建的内部云盘服务，适用于团队内部资料文件存储、共享，可以在线查看、编辑、协作等操作。</p>
+								<p><i class="fa fa-caret-right pr-10 text-colored"></i><b>GPU计算（DGC）</b>：基于 Docker 和 GPU 应用的计算服务，是 BLCC 实验室为平台提供的具有实时高速的并行计算和浮点计算能力的计算服务，适应用于深度学习、科学计算等应用场景，有效解放团队内部的计算压力，提升科学研究过程中的计算处理效率与竞争力。</p>
+								<p><i class="fa fa-caret-right pr-10 text-colored"></i><b>代码托管（DGit）</b>：基于 Gitlab 搭建的代码托管平台，是 BLCC 实验室为开发者提供基于 Git 的在线代码托管工具，包含代码提交/存储/下载/复刻/分支/历史/比对/合并等功能。可一站式完成对代码及代码质量管理，项目及项目人员管理，大大提升研发效率。</p>
+								<p><i class="fa fa-caret-right pr-10 text-colored"></i><b>在线编程（DC9）</b>：基于 Cloud9 搭建的在线编程平台，是 BLCC 实验室提供的专业集成在线编程环境，与 DGit 结合可用于团队在线协作编程，可作为测试环境直接运行，也可一键部署到云虚拟机中运行。</p>
 							</div>
 							<div class="col-md-6">
 								<h2>机器学习</h2>
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingOne">
-											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-													材料数据分析 #固溶度的研究
-												</a>
-											</h4>
-										</div>
-										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-											<div class="panel-body">
-												固溶度，材料科学中描述合金成分的关键概念，其值可由实验直接测定，但测试过程复杂而又繁琐，理论上固溶度的大小依赖于合金组元的基本物理属性，但常规的回归方法拟合效果不佳且缺乏可解释性，因此提出使用符号回归的方法来解决该问题。符号回归，旨在用公式拟合出目标值与给定属性间的关系，该方法基于遗传算法的随机搜索，并且使用蒙特卡洛搜索树对算法进行优化，在解空间中搜索可能存在的解，该工作正在进行中。												</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingTwo">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-													机器学习 #模糊学习的应用
-												</a>
-											</h4>
-										</div>
-										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-											<div class="panel-body">
-												模糊模型是由多个线性系统对同一个非线性系统进行拟合，利用模糊算法进行输入变量的解构，通过模糊演算推理再去模糊化，生成数条代表每组输入与输出关系的方程。是由一组If-then模糊规则来描述的非线性系统，每条规则代表一个子系统，其原始形式模糊蕴含条件句形如“If x is M , then y=f(x)”，其中f(x)是x的线性函数。在模糊模型中，关键是产生合适的模糊规则，其可以通过数据也可以通过专家知识产生，在固溶度的应用中，主要是结合Hume-Rothery产生合理的模糊准则，对固溶度进行预测。
+								<div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingOne">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												材料数据分析 <b>#固溶度的研究</b>
+											</button>
+										</h2>
+										<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+											<div class="accordion-body">
+												&emsp;&emsp;固溶度，材料科学中描述合金成分的关键概念，其值可由实验直接测定，但测试过程复杂而又繁琐，理论上固溶度的大小依赖于合金组元的基本物理属性，但常规的回归方法拟合效果不佳且缺乏可解释性，因此提出使用符号回归的方法来解决该问题。符号回归，旨在用公式拟合出目标值与给定属性间的关系，该方法基于遗传算法的随机搜索，并且使用蒙特卡洛搜索树对算法进行优化，在解空间中搜索可能存在的解，该工作正在进行中。												
 											</div>
 										</div>
 									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingThree">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-													数据挖掘 #高温超导体转变温度预测
-												</a>
-											</h4>
-										</div>
-										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-											<div class="panel-body">
-												面向高温超导体材料，利用其结构参数和电子参数进行性能预测，并构建基于机器学习方法的高温超导体转变温度预测模型。在这项研究中，建立了温超导体转变温度预测模型PCA-PSO-SVR，这个模型利用主成分分析法（PCA）进行特征降维，从而降低高温超导体数据间的相互依赖性。同时使用粒子群优化算法（PSO）去优化支持向量回归（SVR）算法，从而提高模型的预测准确度。最后使用额外的高温超导体数据去验证模型的有效性。
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingTwo">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												机器学习 <b>#模糊学习的应用</b>
+											</button>
+										</h2>
+										<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+											<div class="accordion-body">
+												&emsp;&emsp;模糊模型是由多个线性系统对同一个非线性系统进行拟合，利用模糊算法进行输入变量的解构，通过模糊演算推理再去模糊化，生成数条代表每组输入与输出关系的方程。是由一组If-then模糊规则来描述的非线性系统，每条规则代表一个子系统，其原始形式模糊蕴含条件句形如“If x is M , then y=f(x)”，其中f(x)是x的线性函数。在模糊模型中，关键是产生合适的模糊规则，其可以通过数据也可以通过专家知识产生，在固溶度的应用中，主要是结合Hume-Rothery产生合理的模糊准则，对固溶度进行预测。
 											</div>
 										</div>
 									</div>
-									<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingFour">
-												<h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-														机器学习 #钙钛矿材料数据分析
-													</a>
-												</h4>
-											</div>
-											<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-												<div class="panel-body">
-													面向ABX<sub>3</sub>钙钛矿材料数据，结合特征工程中的特征选择和机器学习方法，构建ABX<sub>3</sub>钙钛矿能带间隙的预测模型。在这项研究中，我们从不同的角度出发，将数据集分为四类不一样的子数据集；然后对每个子数据集进行特征选择，并选择皮尔逊相关系数值前五的特征作为特征选择的结果；最后使用多种机器学习方法和深度学习方法Tensor Flow对特征选择后的数据集和原始数据集进行训练，并建立相应的ABX<sub>3</sub>钙钛矿能带间隙的预测模型。把这些模型得到的预测结果进行对比，从而分析特征选择对预测模型的准确度所带来的影响。这种方式能够有效地去探索和发现材料数据之间的内在联系。
-												</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingThree">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												数据挖掘 <b>#高温超导体转变温度预测</b>
+											</button>
+										</h2>
+										<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+											<div class="accordion-body">
+												&emsp;&emsp;面向高温超导体材料，利用其结构参数和电子参数进行性能预测，并构建基于机器学习方法的高温超导体转变温度预测模型。在这项研究中，建立了温超导体转变温度预测模型PCA-PSO-SVR，这个模型利用主成分分析法（PCA）进行特征降维，从而降低高温超导体数据间的相互依赖性。同时使用粒子群优化算法（PSO）去优化支持向量回归（SVR）算法，从而提高模型的预测准确度。最后使用额外的高温超导体数据去验证模型的有效性。
 											</div>
 										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingFour">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+												机器学习 <b>#钙钛矿材料数据分析</b>
+											</button>
+										</h2>
+										<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
+											<div class="accordion-body">
+												&emsp;&emsp;面向ABX<sub>3</sub>钙钛矿材料数据，结合特征工程中的特征选择和机器学习方法，构建ABX<sub>3</sub>钙钛矿能带间隙的预测模型。在这项研究中，我们从不同的角度出发，将数据集分为四类不一样的子数据集；然后对每个子数据集进行特征选择，并选择皮尔逊相关系数值前五的特征作为特征选择的结果；最后使用多种机器学习方法和深度学习方法Tensor Flow对特征选择后的数据集和原始数据集进行训练，并建立相应的ABX<sub>3</sub>钙钛矿能带间隙的预测模型。把这些模型得到的预测结果进行对比，从而分析特征选择对预测模型的准确度所带来的影响。这种方式能够有效地去探索和发现材料数据之间的内在联系。
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -198,142 +193,122 @@
 				</div>
 			</div>
 		</div>
-		<!-- section end -->
 
-		<!-- section start -->
-		<!-- ================ -->
-		<div class="default-bg space blue">
+		<div id="honors" class="section default-bg space blue">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<h1 class="text-center">让我们一起学习吧!</h1>
+					<div class="col-md-8 offset-md-2">
+						<h1 class="text-center">荣誉墙</h1>
+					</div>
+					<div class="col-md-12">
+						<a v-for="item in items" data-fancybox="gallery2" :data-src="'images/news/' + item.img" :data-caption="item.description">
+							<img class="rounded img-news" :src="'images/news/' + item.img" />
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- section end -->
 
-		<!-- section start -->
-		<!-- ================ -->
-		<div class="section">
+		<div id="members" class="section">
 			<div class="container">
-                <div id="members">
-                    <h1 class="text-center title">研究成员</h1>
-                    <div class="separator"></div>
-                    <p class="lead text-center">类脑计算实验室包括许多老师和同学</p>
-                    <br>			
-                    <div class="row object-non-visible" data-animation-effect="fadeIn">
-                        <div class="col-md-12">
-
-                            <!-- isotope filters start -->
-                            <div class="filters text-center">
-                                <ul class="nav nav-pills">
-                                    <li class="active"><a href="#" data-filter="*">全部</a></li>
-                                    <li><a href="#" data-filter=".teacher">教师</a></li>
-                                    <li><a href="#" data-filter=".post-graduate">在读研究生</a></li>
-                                    <li><a href="#" data-filter=".graduates">毕业生</a></li>
-                                </ul>
-                            </div>
-                            <div class="isotope-container row grid-space-20">                                
-                                <div v-for="item in items" :class="'col-sm-6 col-md-3 isotope-item ' + item.type" >
-                                    <div class="image-box">
-                                        <div class="overlay-container">
-                                            <img :src="'/images/people/' + item.img" :alt="item.name" class="pimage">
-                                            <a class="overlay" data-toggle="modal" :data-target="'#project-' + item.num">
-                                                <i class="fa fa-search-plus"></i>
-                                                <span>{{item.name}}</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- Modal -->
-                                    <div class="modal fade" :id="'project-' + item.num" tabindex="-1" role="dialog" aria-labelledby="'project-' + item.num + '-label'" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                    <h4 class="modal-title" id="project-1-label">详细信息</h4>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <h3>{{item.name}}</h3>
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div v-html="item.content">{{item.content}}</div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <img :src="'/images/people/' + item.img" alt="" class="pimage">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">关闭</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Modal end -->
-                                </div>
-                            </div>
-                            <!-- portfolio items end -->
-                        
-                        </div>
-                    </div>
-                </div>
+				<h1 class="text-center title">研究成员</h1>
+				<div class="separator"></div>
+				<p class="lead text-center">类脑计算实验室包括许多老师和同学</p>
+				<br>			
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+						<div class="filters text-center">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-md-12 col-sm-12">
+										<ul class="nav nav-pills justify-content-center filters">
+											<li class="active"><a href="#" data-filter="*">全部</a></li>
+											<li><a href="#" data-filter=".teacher">教师</a></li>
+											<li><a href="#" data-filter=".post-graduate">在读研究生</a></li>
+											<li><a href="#" data-filter=".graduates">毕业生</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="isotope-container row grid-space-20">                                
+							<div v-for="item in items" :class="'col-sm-6 col-md-3 isotope-item ' + item.type" >
+								<div class="image-box">
+									<div class="overlay-container">
+										<img :src="'/images/people/' + item.img" :alt="item.name" class="pimage">
+										<a class="overlay" data-bs-toggle="modal" :data-bs-target="'#project-' + item.num">
+											<i class="fa fa-search-plus"></i>
+											<span>{{item.name}}</span>
+										</a>
+									</div>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" :id="'project-' + item.num" tabindex="-1" role="dialog" aria-labelledby="'project-' + item.num + '-label'" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h4 class="modal-title" id="project-1-label">详细信息</h4>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<h3>{{item.name}}</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<div v-html="item.content">{{item.content}}</div>
+													</div>
+													<div class="col-md-6">
+														<img :src="'/images/people/' + item.img" alt="" class="pimage">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-bs-dismiss="modal">关闭</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+						</div>             
+					</div>
+				</div>
 			</div>
 		</div>
-		<!-- ion end -->
 
-		<!-- ion start -->
-		<!-- ================ -->
-		<div class="section translucent-bg bg-image-2 pb-clear" >
+		<div id="researches" class="section translucent-bg bg-image-2 pb-clear">
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
-                <div id="researches">
-                    <h1 id="results" class="title text-center">研究成果</h1>
-                    <div class="space"></div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="media-heading">已发表的论文:</h3>
-                            <p v-for="item in items">[{{item.num}}]. <a :href="item.url" target="_blank">{{item.article}}</a></p>
-                        </div>
-                        
-                        <div class="space"></div>	
-                        <div class="space"></div>	
-                    </div>
-                </div>
+				<h1 id="results" class="title text-center">研究成果</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="media-heading">已发表的论文:</h3>
+						<p v-for="item in items">[{{item.num}}]. <a :href="item.url" target="_blank">{{item.article}}</a></p>
+					</div>
+					
+					<div class="space"></div>	
+					<div class="space"></div>	
+				</div>
 			</div>
 			
 		</div>
 
-		<div class="section translucent-bg bg-image-2 pb-clear" >
+		<div id="contact" class="section translucent-bg bg-image-2 pb-clear">
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
-                <div id="contact">
-                    <h1 id="results" class="title text-center">联系我们</h1>
-                    <div class="space"></div>
-                    <div class="row">
-                        <div class="col-md-12 text-center" >
-							<h3 class="media-heading" >地址: &nbsp; 上海市宝山区大场镇南陈路333号上海大学计算机学院大楼608室</h3>
-							<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="64%" color=#987cb9 SIZE=3>
-							<h3 class="media-heading">邮箱:&nbsp;&nbsp;<a href="mailto:hrzhangsh@shu.edu.cn">hrzhangsh@shu.edu.cn</a>&nbsp;&nbsp;<a href="mailto:dbdai@shu.edu.cn">dbdai@shu.edu.cn</a></h3>
-							
-							<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="40%" color=#987cb9 SIZE=10>
-								<h3 class="media-heading">电话: &nbsp; 021-66135551</h3>
-    
-                        </div>
-						<div class="space"></div>	
-                        <div class="space"></div>	
-                        <div class="space"></div>	
-						<div class="space"></div>
-                        <div class="space"></div>	
-                      	
-							
-                    </div>
-                </div>
+				<h1 id="results" class="title text-center">联系我们</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-md-12 text-center" >
+						<p>地址：上海市宝山区大场镇南陈路333号上海大学计算机学院大楼608室</p>
+						<hr width="64%" style="margin: 1em auto;" />
+						<p>邮箱：<a href="mailto:hrzhangsh@shu.edu.cn">hrzhangsh@shu.edu.cn</a>&nbsp;&nbsp;<a href="mailto:dbdai@shu.edu.cn">dbdai@shu.edu.cn</a></p>
+						<hr width="40%" style="margin: 1em auto;" />
+						<p>电话: &nbsp; 021-66135551</p>
+					</div>						
+				</div>
 			</div>
-			
 		</div>
-		<!-- ion end -->
 
-		<!-- ion start -->
-		<!-- ================ -->
 		<footer class="default-bg space">
 			<div class="container">
 				<div class="row">
@@ -341,7 +316,9 @@
                         <div id="links">
                             <h1 class="text-center">友情链接</h1>
                             <div class="content">
-                                <a v-for="item in items" :href="item.url" target="_blank">{{item.name}}</a>
+								<div class="d-grid gap-2 d-md-block">
+									<a v-for="item in items" :href="item.url" target="_blank" class="btn btn-primary btn-lg">{{item.name}}</a>
+								</div>
                             </div>                            
                         </div>						
 					</div>
@@ -355,21 +332,19 @@
                 </div>
             </div>
         </footer>
-        <!-- ion end -->
-        
-		<!-- JavaScript files placed at the end of the document so the pages load faster
-		================================================== -->
-		<!-- Jquery and Bootstap core js files -->
-		<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-		<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-		<script src="https://cdn.bootcss.com/modernizr/2.8.3/modernizr.min.js"></script>
-		<script src="/js/isotope.pkgd.min.js"></script>
-		<script src="https://cdn.bootcss.com/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-        <script src="/js/jquery.appear.js"></script>
-        <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
-        <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
-		<script src="/js/template.js"></script>
-		<script src="/js/blcc.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/npm-modernizr@2.8.3/modernizr.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery.appear@1.0.1/jquery.appear.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@3.2.36/dist/vue.global.prod.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+		<script src="js/template.js"></script>
+		<script src="js/blcc.js"></script>
+		<script async defer data-website-id="6c934fb7-98a8-49e4-bff6-2f34175233ba" src="https://umami.lisz.top/pwiki.js"></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-213351241-1"></script>
 		<script>
@@ -377,7 +352,7 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 
-			gtag('config', 'UA-213351241-1');
+			gtag('config', 'UA-213351241-1');		
 		</script>
 
 	</body>

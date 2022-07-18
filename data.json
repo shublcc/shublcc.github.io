@@ -5,11 +5,47 @@
             "description": ""
         }]
     },
+    "equips": [
+        {
+            "img": "1.webp",
+            "description": "脑电设备"
+        },{
+            "img": "2.webp",
+            "description": "显示屏"
+        },{
+            "img": "3.webp",
+            "description": "脑电产品"
+        },{
+            "img": "4.webp",
+            "description": "电极帽"
+        },{
+            "img": "5.webp",
+            "description": "头戴式电极帽"
+        },{
+            "img": "6.webp",
+            "description": "电极帽"
+        },{
+            "img": "7.webp",
+            "description": "头戴式电极帽"
+        },{
+            "img": "8.webp",
+            "description": "显示屏"
+        }
+    ],
+    "honors": [
+        {
+            "img": "ysjs2021.webp",
+            "description": "连续两年获评高影响力论文"
+        },{
+            "img": "ysjs2022.webp",
+            "description": "连续两年获评高影响力论文"
+        }
+    ],
     "members": [
         {
             "name": "张惠然老师",
             "ename": "Hui-ran Zhang",
-            "img": "zhr.png",
+            "img": "zhr.webp",
             "type": "1", 
             "degrad": "1", 
             "content": "<h4>学位及职称</h4>博士，讲师<h4>办公室以及联系方式</h4>计算机楼1017室；邮箱:hrzhangsh@shu.edu.cn<h4>个人经历</h4><ul><li>2006年3月赴日本富山大学工学部智能信息工学科攻读硕士学位。</li><li>2008年3月获硕士学位并进入富山大学交叉研究机构生命融合科学教育部攻读博士学位阶段。</li><li>于2011年3月获得日本富山大学生命融合科学教育部工学博士学位，导师Masaaki Todo教授，主要研究方向为多刺激响应脑信号理论与分析。硕博期间，主要承担本研究室脑信号处理方向的小组负责人，设计参与了听觉脑信号、视错觉与色视觉的多重视觉脑响应机理研究工作，并为本校的视觉情报研究室（Nakajima Group）进行入浴剂的色觉心理学相关的脑测量研究进行实验设计。博士毕业后，应导师要求继续在日本进行新实验的设计与分析工作。</li><li>2011年8月，进入上海大学计算机学院进行前期研究，于2012年1月被正式引进到上海大学工作，主要研究领域为计算机生物信息处理与应用。</li></ul>",
@@ -18,7 +54,7 @@
         },{
             "name": "戴东波老师",
             "ename": "Dongbo Dai",
-            "img": "ddb.jpeg",
+            "img": "ddb.webp",
             "type": "1", 
             "degrad": "1", 
             "content": "<h4>学位及职称</h4>理学博士，讲师<h4>办公室以及联系方式</h4>计算机楼1017室；邮箱:dbdai@shu.edu.cn<h4>个人经历</h4><ul><li>1977年11月生，2010年毕业于复旦大学计算机软件与理论专业，获博士学位。</li><li>现任教于上海大学计算机学院高性能计算研究室，研究领域为数据库，数据挖掘和生物信息学。曾参加了国家863项目和国家自然科学基金项目，在国内权威刊物如软件学报，计算机研究与发展，电子学报等刊物以及国际知名数据库会议如CIKM，SSDBM等上发表论文10余篇。</li></ul>",
@@ -27,7 +63,7 @@
         },{
             "name": "沈小龙",
             "ename": "Shen Xiaolong",
-            "img": "sxl.jpeg",
+            "img": "sxl.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>基于Web的生物分子网络可视化。<h4>毕业去向：</h4>上海优克锡企业管理顾问有限公司 《这一步校园招聘网》前端",
             "econtent": "",
@@ -35,7 +71,7 @@
         },{
             "name": "张研",
             "ename": "Zhang Yan",
-            "img": "zy.jpeg",
+            "img": "zy.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>基于机器学习的Al基非晶合金的晶化开始温度预测。<h4>毕业去向：</h4>上海交通银行软件开发中心",
             "econtent": "",
@@ -43,7 +79,7 @@
         },{
             "name": "刘丹",
             "ename": "Liu Dan",
-            "img": "ld.jpeg",
+            "img": "ld.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事基于GPU的虚拟化桌面加速研究。<h4>擅长语言：</h4>C++、Python<h4>毕业去向：</h4>目前在华为上海研究院就职。",
             "econtent": "",
@@ -51,7 +87,7 @@
         },{
             "name": "周冀超",
             "ename": "Zhou Jicao",
-            "img": "zjc1.jpg",
+            "img": "zjc.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习的高温超导体转变温度的预测。<h4>擅长语言：</h4>Java、Python、PHP<h4>毕业去向：</h4>目前在上海携程就职。",
             "econtent": "",
@@ -59,7 +95,7 @@
         },{
             "name": "刘尧",
             "ename": "Liu Yao",
-            "img": "ly.png",
+            "img": "ly.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习的高温超导材料的转变温度预测研究以及对于钙钛矿材料的研究究。<h4>擅长语言：</h4>Java、Python<h4>兴趣爱好：</h4>韩剧和NBA爱好者<h4>毕业去向：</h4>目前在上海农商银行软件开发中心就职",
             "econtent": "",
@@ -67,7 +103,7 @@
         },{
             "name": "郑伟达",
             "ename": "Zhen Weida",
-            "img": "zwd.png",
+            "img": "zwd.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习的材料缺失数据插补研究。<h4>擅长语言：</h4>Python、R语言<h4>兴趣爱好：</h4>爱好健身<h4>毕业去向：</h4>工作",
             "econtent": "",
@@ -75,7 +111,7 @@
         },{
             "name": "李盛洲",
             "ename": "Li Shengzhou",
-            "img": "lsz2.png",
+            "img": "lsz.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习的合金固溶度影响因素及预测研究、云平台建设研究。<h4>擅长语言：</h4>PHP、前端、Python、R语言<h4>兴趣爱好：</h4>看电视剧、电影<h4>毕业去向：</h4>目前在日本筑波大学攻读博士学位<h4>个人站点：</h4><a href='https://lisz.me' target='_blank'>https://lisz.me</a>",
             "econtent": "",
@@ -83,15 +119,15 @@
         },{
             "name": "胡红青",
             "ename": "Hu Hongqing",
-            "img": "hhq.jpg",
+            "img": "hhq.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事使用机器学习方法进行钙钛矿数据分析，并着手开始进行类脑方向的研究。<h4>擅长语言：</h4>前端和R语言<h4>兴趣爱好：</h4>音乐、电影和书籍的狂热爱好者，荣迷、黑塞粉。<h4>毕业去向：</h4>目前在上海银行数据中心就职，主要从事大数据平台开发。",
             "econtent": "",
             "english": false
         },{
             "name": "周高峰",
-            "ename": "Li Shengzhou",
-            "img": "zgf.jpeg",
+            "ename": "Zhou Gaofeng",
+            "img": "zgf.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事模糊学习在合金固溶度中的应用研究。<h4>擅长语言：</h4>Python<h4>兴趣爱好：</h4>美剧 乒乓球<h4>毕业去向：</h4>目前在招商银行杭州分行就职，主要从事数据分析工作。",
             "econtent": "",
@@ -99,7 +135,7 @@
         },{
             "name": "徐涛",
             "ename": "Xu Tao",
-            "img": "xt.jpeg",
+            "img": "xt.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事多元合金固溶度方向的数据分析与机器学习研究。<h4>擅长语言：</h4>Python<h4>兴趣爱好：</h4>跑步、马拉松<h4>毕业去向：</h4>工作",
             "econtent": "",
@@ -107,7 +143,7 @@
         },{
             "name": "郭治廷",
             "ename": "Guo Zhiting",
-            "img": "gzt.jpeg",
+            "img": "gzt.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事机器学习在合金固溶度中的应用研究。<h4>擅长语言：</h4>Java、Python<h4>兴趣爱好：</h4>编写有意思的计算机应用<h4>毕业去向：</h4>目前在 Kyligence 就职，主要从事大数据开发。",
             "econtent": "",
@@ -115,7 +151,7 @@
         },{
             "name": "汪鑫",
             "ename": "Wang Xin",
-            "img": "wx.jpeg",
+            "img": "wx.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事虚拟化技术、云平台建设研究。<h4>擅长语言：</h4>Java、Python<h4>兴趣爱好：</h4>话剧、电影、看杂书<h4>毕业去向：</h4>目前在阅文集团就职，主要从事运维开发。",
             "econtent": "",
@@ -123,7 +159,7 @@
         },{
             "name": "范星月",
             "ename": "Fan Xingyue",
-            "img": "fxy.jpg",
+            "img": "fxy.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事使用机器学习方法进行钙钛矿数据分析。<h4>擅长语言：</h4>Java、Python<h4>兴趣爱好：</h4>音乐，小说，动漫，球类<h4>毕业去向：</h4>工作",
             "econtent": "",
@@ -131,7 +167,7 @@
         },{
             "name": "刘庆",
             "ename": "Liu Qing",
-            "img": "lq.jpg",
+            "img": "lq.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间从事基于机器学习在钙钛矿材料的研究以及云平台的建设。<h4>擅长语言：</h4>python<h4>兴趣爱好：</h4>旅游，听音乐<h4>毕业去向：</h4>工作",
             "econtent": "",
@@ -139,7 +175,7 @@
         },{
             "name": "欧阳杰",
             "ename": "Ouyang Jie",
-            "img": "oyj.jpg",
+            "img": "oyj.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事实验室云平台的虚拟化建设，以及无服务计算相关的基础研究。<h4>擅长语言：</h4>Java、Python<h4>兴趣爱好：</h4>热爱电影、旅行<h4>毕业去向：</h4>58 同城后端开发",
             "econtent": "",
@@ -147,7 +183,7 @@
         },{
             "name": "张成",
             "ename": "Zhang Cheng",
-            "img": "zc.png",
+            "img": "zc.webp",
             "type": "3",
             "content": "<h4>研究方向：</h4>在校期间主要从事异构数据库统一访问中间件的研究。<h4>擅长语言：</h4>Java<h4>兴趣爱好：</h4>健身、跑步<h4>毕业去向：</h4>苏宁易购 Java 开发",
             "econtent": "",
@@ -155,23 +191,23 @@
         },{
             "name": "胡瑞",
             "ename": "Hu Rui",
-            "img": "hr.png",
-            "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习的多元合金相影响因素及预测研究、面向晶体材料的图神经网络研究。<h4>擅长语言：</h4>Python、Scala<h4>兴趣爱好：</h4>看电影<h4>毕业去向：</h4>研三在读",
+            "img": "hr.webp",
+            "type": "3",
+            "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习的多元合金相影响因素及预测研究、面向晶体材料的图神经网络研究。<h4>擅长语言：</h4>Python、Scala<h4>兴趣爱好：</h4>看电影<h4>毕业去向：</h4>工作",
             "econtent": "",
             "english": false
         },{
             "name": "刘茜",
             "ename": "Liu Xi",
-            "img": "lx.png",
+            "img": "lx.webp",
             "type": "2",
             "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习对Ti合金力学属性的知识挖掘研究。<h4>擅长语言：</h4>Python、C/C++、Matlab<h4>兴趣爱好：</h4>乒乓球、长跑<h4>毕业去向：</h4>研二在读",
             "econtent": "",
             "english": false
         },{
             "name": "李乐升",
-            "ename": "Lesheng Li",
-            "img": "lls.png",
+            "ename": "Li Lesheng",
+            "img": "lls.webp",
             "type": "2",
             "content": "<h4>研究方向：</h4>在校期间主要从事实验室云平台的虚拟化建设研究。<h4>擅长语言：</h4>Java<h4>兴趣爱好：</h4>足球、电影<h4>毕业去向：</h4>研一在读",
             "econtent": "",
@@ -179,7 +215,7 @@
         },{
             "name": "李俊杰",
             "ename": "Li Junjie",
-            "img": "ljj.png",
+            "img": "ljj.webp",
             "type": "2",
             "content": "<h4>研究方向：</h4>在校期间主要从事机器学习在材料结构与性质关系上的建模与预测。<h4>擅长语言：</h4>Java、Python<h4>兴趣爱好：</h4>电影、足球<h4>毕业去向：</h4>研一在读",
             "econtent": "",
@@ -187,7 +223,7 @@
         },{
             "name": "张光捷",
             "ename": "Zhang Guangjie",
-            "img": "zgj.png",
+            "img": "zgj.webp",
             "type": "2",
             "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C语言、Java<h4>兴趣爱好：</h4>阅读、书法等<h4>毕业去向：</h4>研一在读",
             "econtent": "",
