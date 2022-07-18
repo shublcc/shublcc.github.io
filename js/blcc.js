@@ -202,26 +202,26 @@ $(document).ready(function(){
     });
 
     // Customize Fancybox
-    // Fancybox.bind('[data-fancybox="gallery1"]', {
-    //     Carousel: {
-    //         on: {
-    //         change: (that) => {
-    //             mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
-    //             friction: 0,
-    //             });
-    //         },
-    //         },
-    //     },
-    // });
+    Fancybox.bind('[data-fancybox="gallery1"]', {
+        Carousel: {
+            on: {
+            change: (that) => {
+                mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
+                friction: 0,
+                });
+            },
+            },
+        },
+    });
 
-    // Fancybox.bind('[data-fancybox="gallery2"]', {
-    //     Thumbs: {
-    //         Carousel: {
-    //         fill: false,
-    //         center: true,
-    //         },
-    //     },
-    // });
+    Fancybox.bind('[data-fancybox="gallery2"]', {
+        Thumbs: {
+            Carousel: {
+            fill: false,
+            center: true,
+            },
+        },
+    });
 });
 
 $(window).on('load',function(){
