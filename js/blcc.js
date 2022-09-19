@@ -55,7 +55,20 @@ var equips = {
                 console.log(error);
             });
         }
-    }
+    },
+    mounted: function() {
+        Fancybox.bind('[data-fancybox="gallery1"]', {
+            Carousel: {
+                on: {
+                change: (that) => {
+                    mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
+                    friction: 0,
+                    });
+                },
+                },
+            },
+        });
+    },
 }
 
 Vue.createApp(equips).mount('#equips')
@@ -85,20 +98,7 @@ var honors = {
                 console.log(error);
             });
         }
-    },
-    mounted: function() {
-        Fancybox.bind('[data-fancybox="gallery1"]', {
-            Carousel: {
-                on: {
-                change: (that) => {
-                    mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
-                    friction: 0,
-                    });
-                },
-                },
-            },
-        });
-    },
+    }
 }
 
 Vue.createApp(honors).mount('#honors')
