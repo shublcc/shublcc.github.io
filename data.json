@@ -201,7 +201,7 @@
             "ename": "Liu Xi",
             "img": "lx.webp",
             "type": "3",
-            "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习对Ti合金力学属性的知识挖掘研究。<h4>擅长语言：</h4>Python、C/C++、Matlab<h4>兴趣爱好：</h4>乒乓球、长跑<h4>毕业去向：</h4>研三在读",
+            "content": "<h4>研究方向：</h4>在校期间主要从事基于机器学习对Ti合金力学属性的知识挖掘研究。<h4>擅长语言：</h4>Python、C/C++、Matlab<h4>兴趣爱好：</h4>乒乓球、长跑<h4>毕业去向：</h4>工作",
             "econtent": "",
             "english": false
         },{
@@ -266,6 +266,22 @@
             "img": "xuhy.webp",
             "type": "2",
             "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C++<h4>兴趣爱好：</h4>羽毛球<h4>毕业去向：</h4>研二在读",
+            "econtent": "",
+            "english": false
+        },{
+            "name": "庞家灿",
+            "ename": "Pang Jiacan",
+            "img": "pangjc.webp",
+            "type": "2",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C++、Python<h4>兴趣爱好：</h4>阅读、运动<h4>毕业去向：</h4>研一在读",
+            "econtent": "",
+            "english": false
+        },{
+            "name": "薛静远",
+            "ename": "Xue Jingyuan",
+            "img": "xuejy.webp",
+            "type": "2",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C、Python<h4>兴趣爱好：</h4>围棋、足球<h4>毕业去向：</h4>研一在读",
             "econtent": "",
             "english": false
         }
