@@ -48,7 +48,7 @@
             "img": "zhr.webp",
             "type": "1", 
             "degrad": "1", 
-            "content": "<h4>学位及职称</h4>博士，讲师<h4>办公室以及联系方式</h4>计算机楼1017室；邮箱:hrzhangsh@shu.edu.cn<h4>个人经历</h4><ul><li>2006年3月赴日本富山大学工学部智能信息工学科攻读硕士学位。</li><li>2008年3月获硕士学位并进入富山大学交叉研究机构生命融合科学教育部攻读博士学位阶段。</li><li>于2011年3月获得日本富山大学生命融合科学教育部工学博士学位，导师Masaaki Todo教授，主要研究方向为多刺激响应脑信号理论与分析。硕博期间，主要承担本研究室脑信号处理方向的小组负责人，设计参与了听觉脑信号、视错觉与色视觉的多重视觉脑响应机理研究工作，并为本校的视觉情报研究室（Nakajima Group）进行入浴剂的色觉心理学相关的脑测量研究进行实验设计。博士毕业后，应导师要求继续在日本进行新实验的设计与分析工作。</li><li>2011年8月，进入上海大学计算机学院进行前期研究，于2012年1月被正式引进到上海大学工作，主要研究领域为计算机生物信息处理与应用。</li></ul>",
+            "content": "<h4>学位及职称</h4>博士，副教授<h4>办公室以及联系方式</h4>计算机楼1017室；邮箱:hrzhangsh@shu.edu.cn<h4>个人经历</h4><ul><li>2006年3月赴日本富山大学工学部智能信息工学科攻读硕士学位。</li><li>2008年3月获硕士学位并进入富山大学交叉研究机构生命融合科学教育部攻读博士学位阶段。</li><li>于2011年3月获得日本富山大学生命融合科学教育部工学博士学位，导师Masaaki Todo教授，主要研究方向为多刺激响应脑信号理论与分析。硕博期间，主要承担本研究室脑信号处理方向的小组负责人，设计参与了听觉脑信号、视错觉与色视觉的多重视觉脑响应机理研究工作，并为本校的视觉情报研究室（Nakajima Group）进行入浴剂的色觉心理学相关的脑测量研究进行实验设计。博士毕业后，应导师要求继续在日本进行新实验的设计与分析工作。</li><li>2011年8月，进入上海大学计算机学院进行前期研究，于2012年1月被正式引进到上海大学工作，主要研究领域为计算机生物信息处理与应用。2023年12月晋升为副教授。</li></ul>",
             "econtent": "",
             "english": false
         },{
@@ -287,6 +287,10 @@
         }
     ],
     "researches": [
+        {
+            "article": "Huibin Zhang, Xiaodi Zhou, Mingyue Yuan, Xuhui Xiong, Xiaowei Lv, Yihao Liu, Hualiang Lv, Yuxiang Lai, Jincang Zhang, Huiran Zhang, Deng Pan, Renchao Che. Highly Selective Nano-Interface Engineering in Multishelled Nanocubes for Enhanced Broadband Electromagnetic Attenuation[J]. Advanced Functional Materials, 2023.",
+            "url": "https://doi.org/10.1002/adfm.202313829"
+        },
         {
             "article": "Wei X, Zhang Y, Liu X, J Peng, S Li, R Che, H Zhang. A domain knowledge enhanced machine learning method to predict the properties of halide double perovskite A<sub>2</sub>B<sup>+</sup>B<sup>3+</sup>X<sub>6</sub>[J]. Journal of Materials Chemistry A, 2023.",
             "url": "https://doi.org/10.1039/D3TA03600F"
