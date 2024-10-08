@@ -208,8 +208,8 @@
             "name": "李乐升",
             "ename": "Li Lesheng",
             "img": "lls.webp",
-            "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事实验室云平台的虚拟化建设研究。<h4>擅长语言：</h4>Java<h4>兴趣爱好：</h4>足球、电影<h4>毕业去向：</h4>研三在读",
+            "type": "3",
+            "content": "<h4>研究方向：</h4>在校期间主要从事实验室云平台的虚拟化建设研究。<h4>擅长语言：</h4>Java<h4>兴趣爱好：</h4>足球、电影<h4>毕业去向：</h4>未知",
             "econtent": "",
             "english": false
         },{
@@ -224,8 +224,8 @@
             "name": "张光捷",
             "ename": "Zhang Guangjie",
             "img": "zgj.webp",
-            "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C语言、Java<h4>兴趣爱好：</h4>阅读、书法等<h4>毕业去向：</h4>研三在读",
+            "type": "3",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C语言、Java<h4>兴趣爱好：</h4>阅读、书法等<h4>毕业去向：</h4>考公",
             "econtent": "",
             "english": false
         },{
@@ -249,7 +249,7 @@
             "ename": "Huang Chenyang",
             "img": "huangcy.webp",
             "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C语言、Matlab<h4>兴趣爱好：</h4>视频剪辑<h4>毕业去向：</h4>研二在读",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C语言、Matlab<h4>兴趣爱好：</h4>视频剪辑<h4>毕业去向：</h4>研三在读",
             "econtent": "",
             "english": false
         },{
@@ -257,7 +257,7 @@
             "ename": "Dai Mengmeng",
             "img": "daimm.webp",
             "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>Java<h4>兴趣爱好：</h4>台球 唱歌 看电影<h4>毕业去向：</h4>研二在读",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>Java<h4>兴趣爱好：</h4>台球 唱歌 看电影<h4>毕业去向：</h4>研三在读",
             "econtent": "",
             "english": false
         },{
@@ -265,7 +265,7 @@
             "ename": "Xu Huanyu",
             "img": "xuhy.webp",
             "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C++<h4>兴趣爱好：</h4>羽毛球<h4>毕业去向：</h4>研二在读",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C++<h4>兴趣爱好：</h4>羽毛球<h4>毕业去向：</h4>研三在读",
             "econtent": "",
             "english": false
         },{
@@ -273,7 +273,7 @@
             "ename": "Pang Jiacan",
             "img": "pangjc.webp",
             "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C++、Python<h4>兴趣爱好：</h4>阅读、运动<h4>毕业去向：</h4>研一在读",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C++、Python<h4>兴趣爱好：</h4>阅读、运动<h4>毕业去向：</h4>研二在读",
             "econtent": "",
             "english": false
         },{
@@ -281,7 +281,23 @@
             "ename": "Xue Jingyuan",
             "img": "xuejy.webp",
             "type": "2",
-            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C、Python<h4>兴趣爱好：</h4>围棋、足球<h4>毕业去向：</h4>研一在读",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C、Python<h4>兴趣爱好：</h4>围棋、足球<h4>毕业去向：</h4>研二在读",
+            "econtent": "",
+            "english": false
+        },{
+            "name": "李成宇",
+            "ename": "Li Chengyu",
+            "img": "licy.webp",
+            "type": "2",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的跨学科研究。<h4>擅长语言：</h4>C/C++、MATLAB<h4>兴趣爱好：</h4>羽毛球，棋类(象棋、围棋等)、第九艺术等<h4>毕业去向：</h4>研一在读",
+            "econtent": "",
+            "english": false
+        },{
+            "name": "赵思敏",
+            "ename": "Zhao Simin",
+            "img": "zhaosm.webp",
+            "type": "2",
+            "content": "<h4>研究方向：</h4>在校期间主要从事机器学习和材料学的研究。<h4>擅长语言：</h4>C、Python<h4>兴趣爱好：</h4>唱歌、看电影、阅读<h4>毕业去向：</h4>研一在读",
             "econtent": "",
             "english": false
         }
