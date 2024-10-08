@@ -304,6 +304,10 @@
     ],
     "researches": [
         {
+            "article": "Dongbo Dai, Guangjie Zhang, Xiao Wei, Yudian Lin, Mengmeng Dai, Junjie Peng, Na Song, Zheng Tang, Shengzhou Li, Jiwei Liu, Yan Xu, Renchao Che, Huiran Zhang. A GPT-assisted iterative method for extracting domain knowledge from a large volume of literature of electromagnetic wave absorbing materials with limited manually annotated data[J]. Computational Materials Science, 2025, 245:113431.",
+            "url": "https://doi.org/10.1016/j.commatsci.2024.113431"
+        },
+        {
             "article": "Huibin Zhang, Xiaodi Zhou, Mingyue Yuan, Xuhui Xiong, Xiaowei Lv, Yihao Liu, Hualiang Lv, Yuxiang Lai, Jincang Zhang, Huiran Zhang, Deng Pan, Renchao Che. Highly Selective Nano-Interface Engineering in Multishelled Nanocubes for Enhanced Broadband Electromagnetic Attenuation[J]. Advanced Functional Materials, 2023.",
             "url": "https://doi.org/10.1002/adfm.202313829"
         },
